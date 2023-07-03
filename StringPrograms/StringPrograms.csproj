@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>StringPrograms.String3</StartupObject>
+    <StartupObject>StringPrograms.String4</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,11 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="String2.cs" />
     <Compile Include="String3.cs" />
+    <Compile Include="String4.cs" />
     <Compile Include="String5.cs" />
+    <Compile Include="String6.cs" />
+    <Compile Include="String7.cs" />
+    <Compile Include="String8.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

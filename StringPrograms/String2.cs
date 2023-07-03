@@ -10,7 +10,7 @@ namespace StringPrograms
     {
         static void Main(string[] args)
         {
-            //Write a program to count the number of words in a string
+            //Write a program to find longest word in string
 
             string line = "I am very Greateful";
             string[] words = line.Split(new[] { " " }, StringSplitOptions.None);

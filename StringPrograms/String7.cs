@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace StringPrograms
 {
-    internal class String5
+    internal class String7
     {
+       // Write a program to check whether two strings are anagram or not?
         static void Main(string[] args)
         {
-            //Write a program to check whether given string is palindrome or not.
-
             Console.Write("Enter a string to Check Palindrome : ");
             string name = Console.ReadLine();
             string reverse = string.Empty;//read only
